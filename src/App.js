@@ -1,23 +1,26 @@
 import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/navbar';
+import Carousel from './components/carousel1';
+import Experiences from './components/experience';
+import NewsCard from './components/card1';
+import SustainabilityNews from './components/card2';
+import BookRecord from './components/bookrecord';
+import BrandGrid from './components/brand';
+import ProductDescription from './components/about';
+import Footer from './components/footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Carousel />
+      <Experiences />
+      <SustainabilityNews />
+      <BookRecord />
+      <BrandGrid />
+      <ProductDescription />
+      <Footer />
+     
     </div>
   );
 }

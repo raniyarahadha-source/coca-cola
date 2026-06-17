@@ -1,0 +1,58 @@
+.navbar {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 15px 50px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 60px;
+}
+
+.brand-title {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.main-logo {
+  font-size: 20px;
+  color: #fe001a;
+  font-family: serif;
+  text-transform: none;
+  font-weight: 900;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  font-size: 15px;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #fe001a;
+}
+
+.arrow {
+  font-size: 18px;
+  line-height: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
